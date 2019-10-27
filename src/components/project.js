@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
 import {Card, ListGroup, } from 'react-bootstrap';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 class Project extends Component {
     render() {
-        return(            
+        return( 
             <Card className="shadow rounded-0 view overlay zoom hover-custom card-custom h-100" border="light">
                 <div style={{overflow: 'hidden', borderBottom: '1px solid #E5E7E9'}}>
                     <Card.Img variant="top" className="project-image rounded-0 " src={this.props.projectPic}/>  
@@ -15,7 +16,7 @@ class Project extends Component {
                 <ListGroup variant="flush">
                     <ListGroup.Item><Card.Link href={this.props.projectLink1} target="_blank">Github</Card.Link></ListGroup.Item>  
                 </ListGroup>                                                                   
-            </Card>    
+            </Card>   
         )
     }
 }

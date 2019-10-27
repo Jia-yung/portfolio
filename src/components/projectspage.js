@@ -17,12 +17,12 @@ class Projects extends Component {
     
     render(){
         return(               
-            <Container fluid className="projects-page-grid">
-                <ScrollAnimation animateIn="fadeIn">
+            <Container fluid className="projects-page-grid">                
                     <Row>
-                        <Col xs={12}>
+                        <Col xs={12} style={{padding: '0px'}}>                       
                             <Tabs className="justify-content-center tabs-nav-custom" activeKey={this.state.activeTab}  onSelect={(tabId) => this.setState({activeTab: tabId})}>                        
-                                <Tab eventKey="0" title="React" > 
+                                <Tab eventKey="0" title="React" >
+                            
                                     <Container className="mt-4">                                                         
                                         <Row className="justify-content-center">  
                                             <Col className="col-auto mb-3">                                                                              
@@ -34,7 +34,7 @@ class Projects extends Component {
                                                 /> 
                                             </Col>                                                                                             
                                         </Row> 
-                                    </Container>                             
+                                    </Container>                                                          
                                 </Tab>
                                 <Tab eventKey="1" title="Python" >
                                     <Container className="mt-4">
@@ -95,9 +95,9 @@ class Projects extends Component {
                                     </Container>       
                                 </Tab>
                             </Tabs> 
+                      
                         </Col>
-                    </Row> 
-                </ScrollAnimation>                      
+                    </Row>                                     
             </Container>                                                          
         )
     }

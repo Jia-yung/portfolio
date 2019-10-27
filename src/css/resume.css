@@ -1,0 +1,91 @@
+.resume-grid {
+    background-color: #E5E7E9;
+    padding: 40px;
+}
+  
+.resume-background {
+    background-color: white;
+}
+  
+.resume-left-column {
+    padding: 10px;
+}
+  
+.resume-avatar {
+    margin-bottom: 0px;
+    padding: 0px;
+    height: 150px;
+    width: 150px;
+}
+
+.resume-left-label {
+    margin-top: 25px;
+}
+  
+.resume-right-label {
+    font-size: 30px;
+    background-color: #FEF9E7;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.resume-left-section {
+    background-color: #FEF9E7;
+    padding: 20px;
+    height: 100%; 
+}
+
+.resume-right-col {
+    background: white;
+    color: black;
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+  
+.resume-avatar-section {
+    text-align: center;
+}
+
+.avatar-name {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.education-content p {
+    display: list-item;
+}
+
+.fa-custom {
+    margin-right: 18px;
+}
+
+.contact-grid {
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    background: white;
+    margin-bottom: 20px; 
+}
+  
+.contact-grid h2 {
+    font-family: 'Anton', sans-serif;
+}
+  
+.contact-grid p {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+}
+
+.contact-grid hr {
+    border-top: 5px dotted black;
+    width: 50%;
+    margin: auto;
+}
+
+.contact-list i {
+    font-size: 20px;
+    padding-right: 2rem;
+}
+  

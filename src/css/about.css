@@ -1,0 +1,65 @@
+.about-section {
+    background-color: #F2F3F4;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.about-section h1 {
+    text-align: center;
+}
+  
+.achievement-section {
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.achievement-section h1 {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .img-fluid {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {   
+    .about-section h1 {
+        font-size: 30px;
+    }
+
+    .about-section p {
+        font-size: 12px;
+    }
+
+    .fa {
+        font-size: 14px;
+    }
+
+    .achievement-section h1 {
+        font-size: 30px; 
+    }
+
+    .accordion-title {
+        text-align: center;
+    }
+
+    .accordion-content {
+        font-size: 12px;
+    }
+
+    .about-avatar {
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}

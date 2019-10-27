@@ -1,10 +1,11 @@
 import React from 'react';
+import '../css/footer.css'
 
 const MyFooter = () => {
     return (       
-        <footer id="sticky-footer" class="py-3 bg-secondary text-white-50" style={{position: 'relative'}}>
-            <div class="container text-center">
-                <small>Copyright &copy; Yap Jia Yung</small>
+        <footer className="py-3 bg-secondary text-white-50 custom-footer">
+            <div className="container text-center">
+                <small>Copyright &copy; 2019 Yap Jia Yung</small>
             </div>
         </footer>
     )

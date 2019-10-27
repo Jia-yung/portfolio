@@ -1,0 +1,59 @@
+.navbar {
+    background: #ffffff !important;
+    opacity: 1.0;
+}
+  
+.navlink:hover{
+    opacity: 0.6;
+}
+
+.navbar-custom {
+    padding: 10px;
+
+}
+
+.navbar-custom a{
+    margin: 10px;
+    color: black;
+}
+
+.navbar-logo {
+    color: white !important;
+}
+
+.navbar-link {
+    text-decoration: none !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+  
+.navbar-link:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0;
+    transition: width .5s ease, background-color .5s ease;
+}
+  
+.navbar-link:hover:after {
+    width: 100%;
+    background:black;
+}
+  
+.navbar-brand {
+    font-family: 'Vidaloka', serif;
+}
+
+.tabs-nav-custom {
+    margin-top: 0px;
+    background-color: #F2F3F4;
+    padding-top: 10px;
+}
+  
+
+@media only screen and (min-width: 990px) {
+    /* For desktop: */
+    .navbar-brand {
+        position: absolute;
+    }
+}

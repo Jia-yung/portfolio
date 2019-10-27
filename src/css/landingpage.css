@@ -1,0 +1,107 @@
+.landing-grid {
+    background-image: url("../../src/images/buildings.jpg");
+    background-size: cover !important;
+    height: 100vh;
+    overflow-y: scroll;
+}
+  
+.landing-grid img{
+    margin-top: 40px !important;
+}
+  
+.landing-page {
+    display: inline !important;
+}
+
+.landing-avatar {
+    height: 200px;
+    width: 200px;
+    border-radius:  50%;
+    text-align: center;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block;
+    margin: 20px;
+}
+
+.banner-text {
+    background-color: black;
+    opacity: .8;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.banner-text h1 {
+    margin: 0px;
+    font-size: 44px;
+    font-weight: bold;
+    color: white;
+}
+
+.banner-text hr {
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;
+}
+
+.banner-text p {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+}
+
+.social-links i {
+    color: white;
+    font-size: 5em;
+    padding: 8px;
+}
+
+.social-links i:hover {
+    opacity: 0.8;
+}
+
+
+@media screen and (max-width: 992px) {   
+    .banner-text h1 {
+        font-size: 30px;
+    }
+
+    .banner-text p {
+        font-size: 18px;
+    }
+
+    .social-links i {
+        font-size: 60px !important;
+    }
+}
+@media screen and (max-width: 576px) {
+    .banner-text h1 {
+        font-size: 20px;
+    }
+
+    .banner-text p {
+        font-size: 14px;
+    }
+
+    .social-links i {
+        font-size: 44px !important;
+    }
+
+    .landing-avatar {
+        height: 150px;
+        width: 150px;
+    }
+}   
+
+
