@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {Row, Col, Container, Tabs, Tab} from 'react-bootstrap';
-import ScrollAnimation from 'react-animate-on-scroll';
 import Project from './project';
 import PortLogo from '../images/portfolio.png';
 import TTCLogo from '../images/tictactoe.png';
@@ -21,11 +20,10 @@ class Projects extends Component {
                     <Row>
                         <Col xs={12} style={{padding: '0px'}}>                       
                             <Tabs className="justify-content-center tabs-nav-custom" activeKey={this.state.activeTab}  onSelect={(tabId) => this.setState({activeTab: tabId})}>                        
-                                <Tab eventKey="0" title="React" >
-                            
+                                <Tab eventKey="0" title="React" >                            
                                     <Container className="mt-4">                                                         
                                         <Row className="justify-content-center">  
-                                            <Col className="col-auto mb-3">                                                                              
+                                            <Col className="col-auto">                                                                              
                                                 <Project 
                                                     projectTitle="Portfolio"
                                                     projectDescription="A webpage about my the materials that showcase my skills, qualifications and education."
@@ -94,8 +92,7 @@ class Projects extends Component {
                                         </Row>    
                                     </Container>       
                                 </Tab>
-                            </Tabs> 
-                      
+                            </Tabs>                       
                         </Col>
                     </Row>                                     
             </Container>                                                          

@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {Card, ListGroup, } from 'react-bootstrap';
-import ScrollAnimation from 'react-animate-on-scroll';
 
 class Project extends Component {
     render() {

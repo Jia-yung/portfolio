@@ -21,3 +21,7 @@
     overflow: hidden;
     width: 16rem;
 }
+
+.col-auto {
+    margin-bottom: 40px !important;
+}

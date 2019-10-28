@@ -1,6 +1,6 @@
 .landing-grid {
     background-image: url("../../src/images/buildings.jpg");
-    background-size: cover !important;
+    background-size: cover;
     height: 100vh;
     overflow-y: scroll;
 }

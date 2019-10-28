@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import ProfilePic from '../images/profilePicCropped.jpg';
+import '../css/resume.css';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
@@ -11,43 +11,48 @@ class Resume extends Component {
     render(){
         return(
            <div className="resume-grid">             
-                <Container>
-                    <ScrollAnimation animateIn="fadeIn">
-                        <Row className="shadow resume-background">
-                            <Col xs={3} className="resume-left-column">
-                                <section className="resume-left-section">
-                                    <div className="resume-avatar-section">
-                                        <img src={ProfilePic} className="resume-avatar img-fluid" alt="avatar"/>
-                                    </div>
+                <Container>                
+                    <Row className="shadow resume-background">
+                        <Col xs={12} md={12} lg={3} className="resume-left-column">
+                            <section className="resume-left-section">
+                                <ScrollAnimation animateIn="fadeInUp">                                      
                                     <h3 className="avatar-name">Yap Jia Yung</h3>
                                     <h4 className="resume-left-label">Contact</h4>
                                     <hr className="mt-0"/>
-                                    <div className="contact-list">                                     
-                                        <i className= "fa fa-phone-square" aria-hidden="true"/>
-                                        (+60) 13-3687715
+                                    <div className="contact-list resume-left-content">                                       
                                         <i className= "fa fa-envelope-square" aria-hidden="true"/>
-                                        <a href="mailto:yapjiayung@gmail.com">yapjiayung@gmail.com</a>                                                                                                  
+                                        <a href="mailto:yapjiayung@gmail.com" className="">yapjiayung@gmail.com</a>                                                                                                                                                                                                                                         
                                     </div>
                                     <h4 className="resume-left-label">Personal</h4>
                                     <hr className="mt-0"/>
-                                    <div className="personal-list">                                    
-                                        Nationality: Malaysian                                
-                                        Language: English | Chinese | Malay                                                       
+                                    <div className="personal-list resume-left-content"> 
+                                        <div>
+                                            Nationality: Malaysian 
+                                        </div>                                   
+                                        <div>
+                                            Language: English | Chinese | Malay 
+                                        </div>                                                                                                                                                                 
                                     </div>
                                     <h4 className="resume-left-label">Connect</h4>
                                     <hr className="mt-0" />
-                                    <div className="contact-list">                                    
-                                        <i className= "fa fa-linkedin-square" aria-hidden="true"/>
-                                        <a href='http://bit.ly/jiayung-linkedin' target='_blank' rel="noopener noreferrer">bit.ly/jiayung-linkedin</a>                                   
-                                        <i className= "fa fa-github" aria-hidden="true"/>
-                                        <a href='http://bit.ly/jiayung-Github' target='_blank' rel="noopener noreferrer">bit.ly/jiayung-Github</a>                                                                             
+                                    <div>
+                                        <div className="contact-list resume-left-content">
+                                            <i className= "fa fa-linkedin-square" aria-hidden="true"/>
+                                            <a href='http://bit.ly/jiayung-linkedin' target='_blank' rel="noopener noreferrer">bit.ly/jiayung-linkedin</a>                                                                               
+                                        </div>                                   
+                                        <div className="contact-list resume-left-content">
+                                            <i className= "fa fa-github" aria-hidden="true"/>
+                                            <a href='http://bit.ly/jiayung-Github' target='_blank' rel="noopener noreferrer">bit.ly/jiayung-Github</a>  
+                                        </div>                                                                                                                
                                     </div>
-                                </section>
-                            </Col>                           
-                            <Col className="resume-right-col" xs={9} >
-                                <section>
+                                </ScrollAnimation>
+                            </section>
+                        </Col>                                                              
+                        <Col className="resume-right-col" xs={12} md={12} lg={9}>
+                            <section>
+                                <ScrollAnimation animateIn="fadeInUp">
                                     <div className="resume-right-label" >
-                                        <i className="fa fa-graduation-cap fa-custom" aria-hidden="true"/>
+                                        <i className="fa fa-graduation-cap fa-resume-header" aria-hidden="true"/>
                                         Education
                                     </div>
                                     <Education 
@@ -68,9 +73,11 @@ class Resume extends Component {
                                         program="Foundation in Arts"
                                         schoolName="Sunway College - Kuala Lumpur, Malaysia"
                                         educationDescription={["CGPA: 85.01%"]}
-                                        />                            
+                                        /> 
+                                </ScrollAnimation>
+                                <ScrollAnimation animateIn="fadeInUp">                           
                                     <div className="resume-right-label">
-                                        <i className="fa fa-briefcase fa-custom" aria-hidden="true"/>
+                                        <i className="fa fa-briefcase fa-resume-header" aria-hidden="true"/>
                                         Employment History
                                     </div>
                                     <Experience
@@ -81,13 +88,15 @@ class Resume extends Component {
                                         jobDescription={["Developed and lead front end development for SMRT’s training portal using ASP.net HTML.", 
                                                         "Developed front end for the company website using WordPress.", "Create webpages to query and display details for an insurance broker.", 
                                                         "Generate Excel sheets automatically with .Net Framework to view different insurance plans for an insurance broker's admin panel."]}
-                                    />        
+                                    />  
+                                    </ScrollAnimation>
+                                    <ScrollAnimation animateIn="fadeInUp"> 
                                     <div className="resume-right-label">
-                                        <i className="fa fa-code fa-custom" aria-hidden="true"/>
+                                        <i className="fa fa-code fa-resume-header" aria-hidden="true"/>
                                         Projects
                                     </div>                              
                                     <Row>
-                                        <Col xs={12}>
+                                        <Col xs={12} md={12} lg={9}>
                                             <ResumeProjects 
                                                 projects = {["Donation Platform website using HTML, CSS, PHP", 
                                                             "Sales Management using ASP.net C#", 
@@ -97,21 +106,23 @@ class Resume extends Component {
                                                             "Face Detection and Recognition in Python using Haar Cascade and LBPH from OpenCV"]}
                                             />
                                         </Col>
-                                    </Row>                                                                                           
+                                    </Row>
+                                </ScrollAnimation>
+                                <ScrollAnimation animateIn="fadeInUp">                                                                                            
                                     <div className="resume-right-label">
-                                        <i className="fa fa-desktop fa-custom" aria-hidden="true"/>
+                                        <i className="fa fa-desktop fa-resume-header" aria-hidden="true"/>
                                         Skills
                                     </div>
                                     <Row>
-                                        <Col xs={12} className="col-auto">
-                                            <Skills skills={["Programming Languages: Java | C# | C | Python | HTML | CSS | JavaScript", 
-                                            "Database: SQL | Oracle | MongoDB"]}/>
+                                        <Col xs={12} md={12} lg={9} className="col-auto">
+                                            <Skills skills={[<div><b>Programming Language: </b>Java | C# | C | Python | HTML | CSS | JavaScript</div>, 
+                                                <div><b>Database: </b>SQL | Oracle | MongoDB</div>]}/>
                                         </Col>
                                     </Row> 
-                                </section>                                            
-                            </Col>
-                        </Row>
-                    </ScrollAnimation>
+                                </ScrollAnimation>
+                            </section>                                            
+                        </Col>
+                    </Row>                
                 </Container>            
             </div>             
         )

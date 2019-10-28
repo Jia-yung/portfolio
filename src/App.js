@@ -2,7 +2,6 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import './css/projects.css';
-
 import './css/resume.css';
 import './css/navbar.css';
 import About from './components/about';

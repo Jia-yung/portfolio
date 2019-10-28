@@ -23,7 +23,7 @@ class About extends Component {
                                     <p className="text-justify">I have worked in <a href="https://www.infinitilab.com" rel="noopener noreferrer" target="_blank">Infinitilab</a> during my internship and my responsibilities include creating algorithm, developing user interface and contributing to development of a variety of software packages and web systems. </p>
                                     <p className="text-justify">If you have any questions about my competence, do not hesitate to drop me an email !</p>
                                     <div className="pull-right">                                   
-                                        <a href="mailto:yapjiayung@gmail.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-secondary email-btn" ><span className="fa fa-envelope" aria-hidden="true" style={{marginRight: '10px'}}/>Email</a>
+                                        <a href="mailto:yapjiayung@gmail.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-secondary email-btn" ><span className="fa fa-envelope email-btn" aria-hidden="true" style={{marginRight: '10px'}}/>Email</a>
                                     </div>                                  
                                     <hr style={{marginTop: '76px'}}/>                                                  
                                 </Col>

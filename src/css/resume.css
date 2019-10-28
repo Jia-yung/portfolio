@@ -1,6 +1,9 @@
 .resume-grid {
     background-color: #E5E7E9;
-    padding: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px ;
+    padding-left: 20px;
+    padding-right: 20px;
 }
   
 .resume-background {
@@ -8,7 +11,7 @@
 }
   
 .resume-left-column {
-    padding: 10px;
+    padding: 10px !important;
 }
   
 .resume-avatar {
@@ -26,12 +29,15 @@
     font-size: 30px;
     background-color: #FEF9E7;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .resume-left-section {
     background-color: #FEF9E7;
-    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     height: 100%; 
 }
 
@@ -57,7 +63,7 @@
     display: list-item;
 }
 
-.fa-custom {
+.fa-resume-header {
     margin-right: 18px;
 }
 
@@ -86,6 +92,40 @@
 
 .contact-list i {
     font-size: 20px;
-    padding-right: 2rem;
+    padding-right: 0.5rem;
+}
+
+@media screen and (max-width: 992px) {
+    .resume-right-col {
+        padding-left: 10px;
+    }
+
+    .fa-resume-header {
+        font-size: 28px;
+    }   
+}
+
+@media screen and (max-width: 576px){
+    .program-name, .job-name {
+        font-size: 18px;
+    }
+
+    .school-name, .company-name {
+        font-size: 14px;
+    }
+
+    .resume-right-label{
+        font-size: 24px;
+    }
+
+    .resume-left-label {
+        font-size: 20px;
+    }
+
+   
+
+    .resume-left-content > i, a, div {
+        font-size: 14px;
+    }
 }
   

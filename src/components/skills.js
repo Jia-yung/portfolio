@@ -8,7 +8,7 @@ class Skills extends Component {
         return(
             <div>                    
                 <ul>
-                    <p>{listItem}</p>  
+                    {listItem}
                 </ul>                        
             </div>                                               
         )
