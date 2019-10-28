@@ -54,7 +54,7 @@
     text-align: center;
 }
 
-.avatar-name {
+.resume-name > h3 {
     margin-top: 10px;
     text-align: center;
 }
@@ -102,7 +102,23 @@
 
     .fa-resume-header {
         font-size: 28px;
-    }   
+    }  
+    
+    .resume-name {
+        font-size: 30px;
+        background-color: #FEF9E7;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    .resume-name > h3 {
+        margin-top: 0px;
+    }
+
+    .resume-left-section {
+        background-color: white;
+        padding: 0px;
+    }
 }
 
 @media screen and (max-width: 576px){
@@ -120,12 +136,6 @@
 
     .resume-left-label {
         font-size: 20px;
-    }
-
-   
-
-    .resume-left-content > i, a, div {
-        font-size: 14px;
     }
 }
   

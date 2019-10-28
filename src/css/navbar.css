@@ -9,7 +9,6 @@
 
 .navbar-custom {
     padding: 10px;
-
 }
 
 .navbar-custom a{
@@ -50,10 +49,9 @@
     padding-top: 10px;
 }
   
-
 @media only screen and (min-width: 990px) {
     /* For desktop: */
     .navbar-brand {
-        position: absolute;
+        position: absolute;      
     }
 }

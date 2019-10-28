@@ -15,17 +15,19 @@ class Resume extends Component {
                     <Row className="shadow resume-background">
                         <Col xs={12} md={12} lg={3} className="resume-left-column">
                             <section className="resume-left-section">
-                                <ScrollAnimation animateIn="fadeInUp">                                      
-                                    <h3 className="avatar-name">Yap Jia Yung</h3>
+                                <ScrollAnimation animateIn="fadeInUp">
+                                    <div className="resume-name">
+                                        <h3>Yap Jia Yung</h3>
+                                    </div>                                                                        
                                     <h4 className="resume-left-label">Contact</h4>
                                     <hr className="mt-0"/>
-                                    <div className="contact-list resume-left-content">                                       
+                                    <div className="contact-list">                                       
                                         <i className= "fa fa-envelope-square" aria-hidden="true"/>
                                         <a href="mailto:yapjiayung@gmail.com" className="">yapjiayung@gmail.com</a>                                                                                                                                                                                                                                         
                                     </div>
                                     <h4 className="resume-left-label">Personal</h4>
                                     <hr className="mt-0"/>
-                                    <div className="personal-list resume-left-content"> 
+                                    <div className="personal-list"> 
                                         <div>
                                             Nationality: Malaysian 
                                         </div>                                   
@@ -36,11 +38,11 @@ class Resume extends Component {
                                     <h4 className="resume-left-label">Connect</h4>
                                     <hr className="mt-0" />
                                     <div>
-                                        <div className="contact-list resume-left-content">
+                                        <div className="contact-list">
                                             <i className= "fa fa-linkedin-square" aria-hidden="true"/>
                                             <a href='http://bit.ly/jiayung-linkedin' target='_blank' rel="noopener noreferrer">bit.ly/jiayung-linkedin</a>                                                                               
                                         </div>                                   
-                                        <div className="contact-list resume-left-content">
+                                        <div className="contact-list">
                                             <i className= "fa fa-github" aria-hidden="true"/>
                                             <a href='http://bit.ly/jiayung-Github' target='_blank' rel="noopener noreferrer">bit.ly/jiayung-Github</a>  
                                         </div>                                                                                                                
