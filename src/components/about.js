@@ -37,7 +37,7 @@ class About extends Component {
                             <Row>                           
                                 <Col xs={12}>
                                     <Accordion>
-                                        <h1>Achievements</h1>
+                                        <h1 className="text-reflect">ACHIEVEMENTS</h1>
                                         <Card>
                                             <Card.Header className="accordion-title">
                                                 <Accordion.Toggle as={Button} variant="link" eventKey="0">

@@ -7,6 +7,7 @@ import FaceLogo from '../images/facerecognition.png';
 import CongkakLogo from '../images/congkak.png';
 import RobotLogo from '../images/linefollower.png';
 import DonationLogo from '../images/donationlogo.png';
+import EarthLogo from '../images/rsz_6earth.jpg';
 
 class Projects extends Component {
     constructor(props){
@@ -19,7 +20,7 @@ class Projects extends Component {
             <Container fluid className="projects-page-grid">                
                     <Row>
                         <Col xs={12} style={{padding: '0px'}}>                       
-                            <Tabs className="justify-content-center tabs-nav-custom" activeKey={this.state.activeTab}  onSelect={(tabId) => this.setState({activeTab: tabId})}>                        
+                            <Tabs className="justify-content-center tabs-nav-custom tab-name" activeKey={this.state.activeTab}  onSelect={(tabId) => this.setState({activeTab: tabId})}>                        
                                 <Tab eventKey="0" title="React" >                            
                                     <Container className="mt-4">                                                         
                                         <Row className="justify-content-center">  
@@ -87,6 +88,20 @@ class Projects extends Component {
                                                     projectDescription="A website that bring together the donator and fund raiser to raise money through crowd funding."
                                                     projectLink1="https://github.com/Jia-yung/Donation-platform-website"
                                                     projectPic={DonationLogo}
+                                                /> 
+                                            </Col>                                                                                
+                                        </Row>    
+                                    </Container>       
+                                </Tab>
+                                <Tab eventKey="4" title="Javascript">
+                                    <Container className="mt-4">
+                                        <Row className="justify-content-center">
+                                            <Col className="col-auto mb-3">                                                                              
+                                                <Project 
+                                                    projectTitle="Rising Water Visualisation Tool"
+                                                    projectDescription={["A Web app aimed to raise awareness about rising sea level using the NASA WorldWind open-source virtual globe. This Web app is developed in conjunction with the 2019 nasa spaceapps challenege. ", <a href="https://2019.spaceappschallenge.org/challenges/earths-oceans/rising-water/teams/rocketbunny/project" rel="noopener noreferrer" target="_blank">Demo</a> ]}
+                                                    projectLink1="https://github.com/Jia-yung/Donation-platform-website"
+                                                    projectPic={EarthLogo}
                                                 /> 
                                             </Col>                                                                                
                                         </Row>    

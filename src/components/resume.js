@@ -74,7 +74,7 @@ class Resume extends Component {
                                         endYear={2016}
                                         program="Foundation in Arts"
                                         schoolName="Sunway College - Kuala Lumpur, Malaysia"
-                                        educationDescription={["CGPA: 85.01%"]}
+                                        educationDescription={["CGPA: 85.01%","Granted Jeffrey Cheah Entrance Scholarship"]}
                                         /> 
                                 </ScrollAnimation>
                                 <ScrollAnimation animateIn="fadeInUp">                           
@@ -98,7 +98,7 @@ class Resume extends Component {
                                         Projects
                                     </div>                              
                                     <Row>
-                                        <Col xs={12} md={12} lg={9}>
+                                        <Col>
                                             <ResumeProjects 
                                                 projects = {["Donation Platform website using HTML, CSS, PHP", 
                                                             "Sales Management using ASP.net C#", 
@@ -116,7 +116,7 @@ class Resume extends Component {
                                         Skills
                                     </div>
                                     <Row>
-                                        <Col xs={12} md={12} lg={9} className="col-auto">
+                                        <Col className="col-auto">
                                             <Skills skills={[<div><b>Programming Language: </b>Java | C# | C | Python | HTML | CSS | JavaScript</div>, 
                                                 <div><b>Database: </b>SQL | Oracle | MongoDB</div>]}/>
                                         </Col>
