@@ -100,7 +100,7 @@ class Projects extends Component {
                                                 <Project 
                                                     projectTitle="Rising Water Visualisation Tool"
                                                     projectDescription={["A Web app aimed to raise awareness about rising sea level using the NASA WorldWind open-source virtual globe. This Web app is developed in conjunction with the 2019 nasa spaceapps challenge. ", <a href="https://2019.spaceappschallenge.org/challenges/earths-oceans/rising-water/teams/rocketbunny/project" rel="noopener noreferrer" target="_blank">Demo</a>]}
-                                                    projectLink1="https://github.com/Jia-yung/Donation-platform-website"
+                                                    projectLink1="https://github.com/Jia-yung/NASA-World-Wind"
                                                     projectPic={EarthLogo}
                                                 /> 
                                             </Col>                                                                                
