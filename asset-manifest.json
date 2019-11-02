@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.6117e058.chunk.css",
+    "main.js": "/portfolio/static/js/main.7821990c.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.7821990c.chunk.js.map",
+    "runtime~main.js": "/portfolio/static/js/runtime~main.6d8f4ea7.js",
+    "runtime~main.js.map": "/portfolio/static/js/runtime~main.6d8f4ea7.js.map",
+    "static/css/2.266e55a5.chunk.css": "/portfolio/static/css/2.266e55a5.chunk.css",
+    "static/js/2.6da40a82.chunk.js": "/portfolio/static/js/2.6da40a82.chunk.js",
+    "static/js/2.6da40a82.chunk.js.map": "/portfolio/static/js/2.6da40a82.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.1953d28c2c56815a3e95906febbe633a.js": "/portfolio/precache-manifest.1953d28c2c56815a3e95906febbe633a.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/portfolio/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.6117e058.chunk.css.map": "/portfolio/static/css/main.6117e058.chunk.css.map",
+    "static/media/landingpage.css": "/portfolio/static/media/buildings.c1168d0d.jpg",
+    "static/media/congkak.png": "/portfolio/static/media/congkak.195f3505.png",
+    "static/media/donationlogo.png": "/portfolio/static/media/donationlogo.638c554f.png",
+    "static/media/facerecognition.png": "/portfolio/static/media/facerecognition.47ccbe84.png",
+    "static/media/linefollower.png": "/portfolio/static/media/linefollower.fddf3b6b.png",
+    "static/media/portfolio2.png": "/portfolio/static/media/portfolio2.21cc1bf0.png",
+    "static/media/profilePicCropped.jpg": "/portfolio/static/media/profilePicCropped.1a84055f.jpg",
+    "static/media/rsz_1earth.jpg": "/portfolio/static/media/rsz_1earth.57d02310.jpg",
+    "static/media/web-developerCropped.jpg": "/portfolio/static/media/web-developerCropped.c230476f.jpg"
+  }
+}
