@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import {Row, Col, Container, Tabs, Tab} from 'react-bootstrap';
 import Project from './project';
-import PortLogo from '../images/portfolio.png';
+import PortLogo from '../images/portfolio2.png';
 import TTCLogo from '../images/tictactoe.png';
 import FaceLogo from '../images/facerecognition.png';
 import CongkakLogo from '../images/congkak.png';
 import RobotLogo from '../images/linefollower.png';
 import DonationLogo from '../images/donationlogo.png';
-import EarthLogo from '../images/rsz_6earth.jpg';
+import EarthLogo from '../images/rsz_1earth.jpg';
 
 class Projects extends Component {
     constructor(props){
@@ -27,7 +27,7 @@ class Projects extends Component {
                                             <Col className="col-auto">                                                                              
                                                 <Project 
                                                     projectTitle="Portfolio"
-                                                    projectDescription="A webpage about my the materials that showcase my skills, qualifications and education."
+                                                    projectDescription={["A webpage about the materials that showcase my skills, qualifications and education."]}
                                                     projectLink1="https://www.google.com/"
                                                     projectPic={PortLogo}
                                                 /> 
@@ -41,7 +41,7 @@ class Projects extends Component {
                                             <Col className="col-auto mb-3">                                                                              
                                                 <Project 
                                                     projectTitle="Tic-Tac-Toe(AI)"
-                                                    projectDescription="A multiplayer tic-tac-toe game that implements minimax and alpha beta pruning algorithm."
+                                                    projectDescription={["A multiplayer tic-tac-toe game that implements minimax and alpha beta pruning algorithm."]}
                                                     projectLink1="https://github.com/Jia-yung/Tic-Tac-Toe-with-Minimax-AlphaBetaPruning"
                                                     projectPic={TTCLogo}
                                                 /> 
@@ -49,7 +49,7 @@ class Projects extends Component {
                                             <Col className="col-auto mb-3"> 
                                                 <Project 
                                                     projectTitle="Face Recognition"
-                                                    projectDescription="A Face Detection and Recognition system using Haar Cascade and LBPH from OpenCV"
+                                                    projectDescription={["A Face Detection and Recognition system using Haar Cascade and LBPH from OpenCV"]}
                                                     projectLink1="https://github.com/Jia-yung/Face-Detection-and-Recognition"
                                                     projectPic={FaceLogo}
                                                     /> 
@@ -62,8 +62,8 @@ class Projects extends Component {
                                         <Row className="justify-content-center">
                                             <Col className="col-auto mb-3">                                                                              
                                                 <Project 
-                                                    projectTitle="Congkak"
-                                                    projectDescription="A multiplayer game with the objective of capturing all or some set of opponent seeds. The game is develop in command line interface and be play against friends or computer."
+                                                    projectTitle="Mancala"
+                                                    projectDescription={["A multiplayer game with the objective of capturing all or some set of opponent seeds. The game is develop in command line interface and be play against friends or computer."]}
                                                     projectLink1="https://github.com/Jia-yung/Congkak"
                                                     projectPic={CongkakLogo}
                                                 /> 
@@ -71,7 +71,7 @@ class Projects extends Component {
                                             <Col className="col-auto mb-3">                                                                              
                                                 <Project 
                                                     projectTitle="Autonomous Driving"
-                                                    projectDescription="A self driving robot based on line following and obstacle detection via image processing and ultrasonic sensor respectively."
+                                                    projectDescription={["A self driving robot based on line following and obstacle detection via image processing and ultrasonic sensor respectively."]}
                                                     projectLink1="https://github.com/Jia-yung/EV3-LineFollower-and-ObstacleDetection"
                                                     projectPic={RobotLogo}
                                                 /> 
@@ -85,7 +85,7 @@ class Projects extends Component {
                                             <Col className="col-auto mb-3">                                                                              
                                                 <Project 
                                                     projectTitle="Donation Platform"
-                                                    projectDescription="A website that bring together the donator and fund raiser to raise money through crowd funding."
+                                                    projectDescription={["A website that bring together the donator and fund raiser to raise money through crowd funding."]}
                                                     projectLink1="https://github.com/Jia-yung/Donation-platform-website"
                                                     projectPic={DonationLogo}
                                                 /> 
@@ -99,7 +99,7 @@ class Projects extends Component {
                                             <Col className="col-auto mb-3">                                                                              
                                                 <Project 
                                                     projectTitle="Rising Water Visualisation Tool"
-                                                    projectDescription={["A Web app aimed to raise awareness about rising sea level using the NASA WorldWind open-source virtual globe. This Web app is developed in conjunction with the 2019 nasa spaceapps challenege. ", <a href="https://2019.spaceappschallenge.org/challenges/earths-oceans/rising-water/teams/rocketbunny/project" rel="noopener noreferrer" target="_blank">Demo</a> ]}
+                                                    projectDescription={["A Web app aimed to raise awareness about rising sea level using the NASA WorldWind open-source virtual globe. This Web app is developed in conjunction with the 2019 nasa spaceapps challenge. ", <a href="https://2019.spaceappschallenge.org/challenges/earths-oceans/rising-water/teams/rocketbunny/project" rel="noopener noreferrer" target="_blank">Demo</a>]}
                                                     projectLink1="https://github.com/Jia-yung/Donation-platform-website"
                                                     projectPic={EarthLogo}
                                                 /> 

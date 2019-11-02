@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import '../css/resume.css';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
@@ -22,7 +21,7 @@ class Resume extends Component {
                                     <h4 className="resume-left-label">Contact</h4>
                                     <hr className="mt-0"/>
                                     <div className="contact-list">                                       
-                                        <i className= "fa fa-envelope-square" aria-hidden="true"/>
+                                        <i className= "fas fa-envelope-square email" aria-hidden="true"/>
                                         <a href="mailto:yapjiayung@gmail.com" className="">yapjiayung@gmail.com</a>                                                                                                                                                                                                                                         
                                     </div>
                                     <h4 className="resume-left-label">Personal</h4>
@@ -39,11 +38,11 @@ class Resume extends Component {
                                     <hr className="mt-0" />
                                     <div>
                                         <div className="contact-list">
-                                            <i className= "fa fa-linkedin-square" aria-hidden="true"/>
+                                            <i className= "fab fa-linkedin linkedin" aria-hidden="true"/>
                                             <a href='http://bit.ly/jiayung-linkedin' target='_blank' rel="noopener noreferrer">bit.ly/jiayung-linkedin</a>                                                                               
                                         </div>                                   
                                         <div className="contact-list">
-                                            <i className= "fa fa-github" aria-hidden="true"/>
+                                            <i className= "fab fa-github-square github" aria-hidden="true"/>
                                             <a href='http://bit.ly/jiayung-Github' target='_blank' rel="noopener noreferrer">bit.ly/jiayung-Github</a>  
                                         </div>                                                                                                                
                                     </div>
@@ -58,6 +57,7 @@ class Resume extends Component {
                                         Education
                                     </div>
                                     <Education 
+                                        desc={1}
                                         startYear={2016}
                                         endYear={2019}
                                         program="BSc (Hons) in Computer Science"
@@ -70,6 +70,7 @@ class Resume extends Component {
                                         />   
                                     <hr/>
                                     <Education 
+                                        desc={2}
                                         startYear={2015}
                                         endYear={2016}
                                         program="Foundation in Arts"
@@ -83,6 +84,7 @@ class Resume extends Component {
                                         Employment History
                                     </div>
                                     <Experience
+                                        desc={3}
                                         startYear="2019"
                                         endYear="2019"
                                         jobName="Intern Software Engineer" 
@@ -91,8 +93,24 @@ class Resume extends Component {
                                                         "Developed front end for the company website using WordPress.", "Create webpages to query and display details for an insurance broker.", 
                                                         "Generate Excel sheets automatically with .Net Framework to view different insurance plans for an insurance broker's admin panel."]}
                                     />  
-                                    </ScrollAnimation>
-                                    <ScrollAnimation animateIn="fadeInUp"> 
+                                </ScrollAnimation>
+                                <ScrollAnimation animateIn="fadeInUp">
+                                    <div className="resume-right-label">
+                                        <i className="fas fa-chalkboard-teacher fa-resume-header" aria-hidden="true"/>
+                                        Teaching Experience
+                                    </div>
+                                    <Experience
+                                        desc={4}
+                                        startYear="2017"
+                                        endYear="2018"
+                                        jobName="Mentor leader for Peer Assisted Learning Program(PALP)" 
+                                        companyName="Sunway University - Kuala Lumpur, Malaysia"
+                                        jobDescription={["Lead mentoring for Computer Mathematics and Computer Organisation subjects.", 
+                                                         "Facilitated learning sessions in a supportive and collaborative manner.", "Assisted peer learners in developing appropriate learning strategies.", 
+                                                         "Joined personal development and professional development training for peer leaders."]}
+                                    />  
+                                </ScrollAnimation>
+                                <ScrollAnimation animateIn="fadeInUp"> 
                                     <div className="resume-right-label">
                                         <i className="fa fa-code fa-resume-header" aria-hidden="true"/>
                                         Projects
@@ -100,7 +118,8 @@ class Resume extends Component {
                                     <Row>
                                         <Col>
                                             <ResumeProjects 
-                                                projects = {["Donation Platform website using HTML, CSS, PHP", 
+                                                projects = {["Rising sea water virtualisation tool using Javascript, HTML, CSS",
+                                                            "Donation Platform website using HTML, CSS, PHP", 
                                                             "Sales Management using ASP.net C#", 
                                                             "Movie Database Management using MongoDB", 
                                                             "Congkak board game in command line interface using Java", 
@@ -117,8 +136,9 @@ class Resume extends Component {
                                     </div>
                                     <Row>
                                         <Col className="col-auto">
-                                            <Skills skills={[<div><b>Programming Language: </b>Java | C# | C | Python | HTML | CSS | JavaScript</div>, 
-                                                <div><b>Database: </b>SQL | Oracle | MongoDB</div>]}/>
+                                            <Skills skills={["Programming Language: Java | C# | C | Python | HTML | CSS | JavaScript", 
+                                                             "Database: SQL | Oracle | MongoDB"]}
+                                            />
                                         </Col>
                                     </Row> 
                                 </ScrollAnimation>

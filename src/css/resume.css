@@ -57,6 +57,7 @@
 .resume-name > h3 {
     margin-top: 10px;
     text-align: center;
+    font-family: 'Vidaloka', sans-serif;
 }
 
 .education-content p {
@@ -65,6 +66,14 @@
 
 .fa-resume-header {
     margin-right: 18px;
+}
+
+.github {
+    color: #6f42c1;
+}
+
+.linkedin {
+    color: #0e76a8;
 }
 
 .contact-grid {
@@ -93,6 +102,22 @@
 .contact-list i {
     font-size: 20px;
     padding-right: 0.5rem;
+}
+
+.year-label {
+    background-color: #E5E7E9;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.job-name, .program-name{
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+.company-name, .school-name{
+    margin-top: 0px;
+    color: grey;
 }
 
 @media screen and (max-width: 992px) {
@@ -138,4 +163,3 @@
         font-size: 20px;
     }
 }
-  

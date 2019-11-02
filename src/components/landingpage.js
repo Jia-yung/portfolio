@@ -17,15 +17,15 @@ class Landing extends Component {
                         <div className="banner-text">
                             <h1 style={{marginBottom:"10px"}}>Software Developer</h1>
                             <hr/>
-                            <p>HTML/CSS | JavaScript | Java | C# | Python | React | SQL | Oracle | MongoDB</p>
+                            <p>HTML/CSS | JavaScript | Java | C | C# | Python | React | SQL | Oracle | MongoDB</p>
                             <div className="social-links">
                                 {/* LinkedIn */}
                                 <a href="http://bit.ly/jiayung-linkedin" rel="noopener noreferrer" target="_blank">
-                                    <i className="fa fa-linkedin-square" aria-hidden="true"></i>
+                                    <i className="fab fa-linkedin" aria-hidden="true"></i>
                                 </a>
                                 {/* Github */}
                                 <a href="http://bit.ly/jiayung-Github" rel="noopener noreferrer" target="_blank">
-                                    <i className="fa fa-github-square" aria-hidden="true" />
+                                    <i className="fab fa-github-square" aria-hidden="true" />
                                 </a>
                             </div>
                         </div>

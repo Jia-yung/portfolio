@@ -5,7 +5,7 @@ import {NavLink} from 'react-router-dom';
 const MyNavbar = () => {
     return (                  
         <Navbar bg="dark" variant="light" expand="lg" className="navbar-custom navbar">
-            <Navbar.Brand className="navbar-brand"><NavLink to="/">Jia-Yung</NavLink></Navbar.Brand>
+            <Navbar.Brand className="navbar-brand"><NavLink to="/">J.Yung</NavLink></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" style={{marginLeft: 'auto'}}/>
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mx-auto">

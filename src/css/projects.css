@@ -7,6 +7,20 @@
     height: 180px;
     width: 100%;
 }
+
+.project-title {
+    text-align: center;
+}
+
+.project-desc {
+    display: inline;
+    list-style-type: none;
+}
+
+.image-section {
+    overflow: hidden;
+    border-bottom: 1px solid #E5E7E9 ;
+}
   
 .hover-custom:hover img {
     transform:scale(1.2);
@@ -23,7 +37,7 @@
 }
 
 .col-auto {
-    margin-bottom: 40px !important;
+    margin-bottom: 50px !important;
 }
 
 .tabs-nav-custom {

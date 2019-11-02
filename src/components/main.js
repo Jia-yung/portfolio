@@ -6,7 +6,7 @@ import Resume from './resume';
 import LandingPage from './landingpage'
 
 const Main = () => (    
-    <div style={{height: '100%'}}>
+    <div style={{height: '100vh'}}>
         <Switch>
             <Route exact path="/" component={LandingPage} />
             <Route path="/about" component={About}/>

@@ -2,9 +2,8 @@ import React, {Component} from 'react';
 
 class ResumeProjects extends Component {
     render() {
-
         const listItem = this.props.projects.map((desc) =>
-            <li>{desc}</li>
+            <li key={desc}>{desc}</li>
         );
         return(
             <div>                    

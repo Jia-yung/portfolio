@@ -1,6 +1,9 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import './css/about.css';
+import './css/footer.css';
+import './css/landingpage.css';
 import './css/projects.css';
 import './css/resume.css';
 import './css/navbar.css';
