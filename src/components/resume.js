@@ -52,7 +52,7 @@ class Resume extends Component {
                         <Col className="resume-right-col" xs={12} md={12} lg={9}>
                             <section>
                                 <ScrollAnimation animateIn="fadeInUp">
-                                    <div className="resume-right-label" >
+                                    <div className="resume-right-label text-center">
                                         <i className="fa fa-graduation-cap fa-resume-header" aria-hidden="true"/>
                                         Education
                                     </div>
@@ -79,7 +79,7 @@ class Resume extends Component {
                                         /> 
                                 </ScrollAnimation>
                                 <ScrollAnimation animateIn="fadeInUp">                           
-                                    <div className="resume-right-label">
+                                    <div className="resume-right-label text-center">
                                         <i className="fa fa-briefcase fa-resume-header" aria-hidden="true"/>
                                         Employment History
                                     </div>
@@ -95,7 +95,7 @@ class Resume extends Component {
                                     />  
                                 </ScrollAnimation>
                                 <ScrollAnimation animateIn="fadeInUp">
-                                    <div className="resume-right-label">
+                                    <div className="resume-right-label text-center">
                                         <i className="fas fa-chalkboard-teacher fa-resume-header" aria-hidden="true"/>
                                         Teaching Experience
                                     </div>
@@ -111,7 +111,7 @@ class Resume extends Component {
                                     />  
                                 </ScrollAnimation>
                                 <ScrollAnimation animateIn="fadeInUp"> 
-                                    <div className="resume-right-label">
+                                    <div className="resume-right-label text-center">
                                         <i className="fa fa-code fa-resume-header" aria-hidden="true"/>
                                         Projects
                                     </div>                              
@@ -130,7 +130,7 @@ class Resume extends Component {
                                     </Row>
                                 </ScrollAnimation>
                                 <ScrollAnimation animateIn="fadeInUp">                                                                                            
-                                    <div className="resume-right-label">
+                                    <div className="resume-right-label text-center">
                                         <i className="fa fa-desktop fa-resume-header" aria-hidden="true"/>
                                         Skills
                                     </div>
