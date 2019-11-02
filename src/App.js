@@ -12,12 +12,12 @@ import Projects from './components/projectspage';
 import Resume from './components/resume';
 import LandingPage from './components/landingpage'
 import MyNavbar from './components/navbar';
-import {BrowserRouter, Route} from 'react-router-dom';
+import {HashRouter, Route} from 'react-router-dom';
 import MyFooter from './components/footer';
 
 function App() {
   return ( 
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <MyNavbar />
         <Route exact path='/' component={LandingPage}/>
@@ -26,7 +26,7 @@ function App() {
         <Route path='/resume' component={Resume}/>
         <MyFooter />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
