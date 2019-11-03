@@ -28,7 +28,7 @@ class Projects extends Component {
                                                 <Project 
                                                     projectTitle="Portfolio"
                                                     projectDescription={["A webpage about the materials that showcase my skills, qualifications and education."]}
-                                                    projectLink1="https://www.google.com/"
+                                                    projectLink1="https://github.com/Jia-yung/portfolio"
                                                     projectPic={PortLogo}
                                                 /> 
                                             </Col>                                                                                             

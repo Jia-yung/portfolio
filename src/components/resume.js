@@ -90,8 +90,8 @@ class Resume extends Component {
                                         jobName="Intern Software Engineer" 
                                         companyName="Infiniti Lab - Kuala Lumpur, Malaysia"
                                         jobDescription={["Developed and lead front end development for SMRT’s training portal using ASP.net HTML.", 
-                                                        "Developed front end for the company website using WordPress.", "Create webpages to query and display details for an insurance broker.", 
-                                                        "Generate Excel sheets automatically with .Net Framework to view different insurance plans for an insurance broker's admin panel."]}
+                                                        "Developed front end for the company website using WordPress.", "Developed webpages to query and display details for an insurance broker.", 
+                                                        "Developed a script to generate Excel sheets automatically using .Net Framework to view different insurance plans for an insurance broker's admin panel."]}
                                     />  
                                 </ScrollAnimation>
                                 <ScrollAnimation animateIn="fadeInUp">

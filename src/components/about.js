@@ -45,7 +45,7 @@ class About extends Component {
                                                 </Accordion.Toggle>
                                             </Card.Header>
                                             <Accordion.Collapse eventKey="0">
-                                                <Card.Body className="text-justify accordion-content"><a href="https://newinti.edu.my/intis-unicode-enhances-inter-varsity-competitive-spirit-in-24-hours/" rel="noopener noreferrer" target="_blank">Unicode</a> is a coding challenge organised by INTI University where participants are given a set of challenging question which requires problem solving skill and algorithm to solve them. In this competition, me and a friend of mine got into Top 10 after competing with participants from different University in Malaysia.</Card.Body>
+                                                <Card.Body className="text-justify accordion-content"><a href="https://newinti.edu.my/intis-unicode-enhances-inter-varsity-competitive-spirit-in-24-hours/" rel="noopener noreferrer" target="_blank">Unicode</a> is a coding challenge organised by INTI University where participants are given a set of challenging question which requires problem solving skill and algorithm to solve them. In this competition, my friend and I got into Top 10 after competing with participants from different Universities in Malaysia.</Card.Body>
                                             </Accordion.Collapse>
                                         </Card>
                                         <Card>
@@ -55,7 +55,7 @@ class About extends Component {
                                                 </Accordion.Toggle>
                                             </Card.Header>
                                             <Accordion.Collapse eventKey="1" >
-                                                <Card.Body className="text-justify accordion-content">Peer Assisted Learning Programme (PALP) is a peer facilitated student support scheme for students who would like to improve their studies. Peer leaders who excel in certain subjects are trained to foster student learning and active engagement with their course content. In this program, I am choosens to be the peer leader for Computer Mathematics and Computer Organisation to assist my junior who have difficulties in that area of studies.</Card.Body>
+                                                <Card.Body className="text-justify accordion-content">Peer Assisted Learning Programme (PALP) is a peer facilitated student support scheme for students who would like to improve their studies. Peer leaders who excel in certain subjects are trained to foster student learning and active engagement with their course content. In this program, I am choosen to be the peer leader for Computer Mathematics and Computer Organisation to assist my junior who have difficulties in that area of studies.</Card.Body>
                                             </Accordion.Collapse>
                                         </Card>
                                         <Card>
