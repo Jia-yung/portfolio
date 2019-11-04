@@ -6,7 +6,7 @@ A webpage to introduce myself and showcase my skills, qualifications and educati
 * React
 * Bootstrap
 
-## Link
+## Link to portfolio
 https://jia-yung.github.io/portfolio
 
 
