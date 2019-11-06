@@ -90,8 +90,9 @@ class Resume extends Component {
                                         jobName="Intern Software Engineer" 
                                         companyName="Infiniti Lab - Kuala Lumpur, Malaysia"
                                         jobDescription={["Developed and lead front end development for SMRT’s training portal using ASP.net HTML.", 
-                                                        "Developed front end for the company website using WordPress.", "Developed webpages to query and display details for an insurance broker.", 
-                                                        "Developed a script to generate Excel sheets automatically using .Net Framework to view different insurance plans for an insurance broker's admin panel."]}
+                                                         "Developed front end for the company website using WordPress.", 
+                                                         "Developed webpages to query and display insurance details for an insurance broker using ASP.net MVC.", 
+                                                         "Developed Excel sheets auto generator for an insurance's admin panel using .Net Framework"]}
                                     />  
                                 </ScrollAnimation>
                                 <ScrollAnimation animateIn="fadeInUp">
@@ -107,7 +108,7 @@ class Resume extends Component {
                                         companyName="Sunway University - Kuala Lumpur, Malaysia"
                                         jobDescription={["Lead mentoring for Computer Mathematics and Computer Organisation subjects.", 
                                                          "Facilitated learning sessions in a supportive and collaborative manner.", "Assisted peer learners in developing appropriate learning strategies.", 
-                                                         "Joined personal development and professional development training for peer leaders."]}
+                                                         "Joined personal development and professional development training."]}
                                     />  
                                 </ScrollAnimation>
                                 <ScrollAnimation animateIn="fadeInUp"> 
