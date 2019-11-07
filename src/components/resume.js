@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import Achievements from './achievements';
 import ResumeProjects from './resumeprojects';
 import {Row, Col, Container} from 'react-bootstrap';
 import ScrollAnimation from 'react-animate-on-scroll';
@@ -61,8 +62,8 @@ class Resume extends Component {
                                         endYear={2019}
                                         program="BSc (Hons) in Computer Science"
                                         schoolName="Sunway University - Kuala Lumpur, Malaysia"
-                                        educationDescription={["First Class Honours", 
-                                                               "CGPA: 3.9/4.0", 
+                                        educationDescription={["CGPA: 3.9/4.0",
+                                                               "First Class Honours", 
                                                                "Jeffrey Cheah Continuing Scholarship(75%) recipient",  
                                                                "Final Year Project: Autonomous Driving based on Line Following and Obstacle Detection", 
                                                                "Courses: Web Fundamentals, Software Architecture, Human Computer Interaction, Database Management System, Programming Principles, Data Structure and Algorithm, Computer Vision"]}                                      
@@ -129,11 +130,28 @@ class Resume extends Component {
                                 </ScrollAnimation>
                                 <ScrollAnimation animateIn="fadeInUp">                                                                                            
                                     <div className="resume-right-label text-center">
+                                        <i className="fas fa-trophy fa-resume-header" aria-hidden="true"/>
+                                        Achievements
+                                    </div>
+                                    <Row>
+                                        <Col>
+                                            <Achievements achievements={["NASA Space Apps Challenge (2019) Participant, Kuala Lumpur", 
+                                                                         "Mentor Leader for Peer Assisted Learning Program (2017-2018), Sunway University",
+                                                                         "Top 10 in Unicode coding competition (2016), INTI University",
+                                                                         "President of Chess Club (2014), SMK Taman Desa",
+                                                                         "Medalist in interzone chess competition for three consecutive year (2012-2014), Malaysia",
+                                                                         "Medalist in school marching competition (2014), SMK Taman Desa."]}
+                                            />
+                                        </Col>
+                                    </Row> 
+                                </ScrollAnimation>
+                                <ScrollAnimation animateIn="fadeInUp">                                                                                            
+                                    <div className="resume-right-label text-center">
                                         <i className="fa fa-desktop fa-resume-header" aria-hidden="true"/>
                                         Skills
                                     </div>
                                     <Row>
-                                        <Col className="col-auto">
+                                        <Col>
                                             <Skills skills={["Programming Language: Java, C#, C, Python, HTML, CSS, JavaScript", 
                                                              "Database: SQL, Oracle, MongoDB"]}
                                             />
