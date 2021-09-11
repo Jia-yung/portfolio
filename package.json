@@ -38,5 +38,16 @@
   },
   "devDependencies": {
     "gh-pages": "^2.1.1"
+  },
+  "description": "A webpage to introduce myself and showcase my skills, qualifications and education.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jia-yung/Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jia-yung/Portfolio/issues"
   }
 }
