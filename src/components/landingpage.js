@@ -17,7 +17,7 @@ class Landing extends Component {
                         <div className="banner-text">
                             <h1 style={{marginBottom:"10px"}}>Software Developer</h1>
                             <hr/>
-                            <p>HTML/CSS | JavaScript | Java | Cll | C# | Python | React | SQL | Oracle | MongoDB</p>
+                            <p>HTML/CSS | JavaScript | Java | Clll | C# | Python | React | SQL | Oracle | MongoDB</p>
                             <div className="social-links">
                                 {/* LinkedIn */}
                                 <a href="http://bit.ly/jiayung-linkedin" rel="noopener noreferrer" target="_blank">
