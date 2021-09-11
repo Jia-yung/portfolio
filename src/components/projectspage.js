@@ -27,11 +27,7 @@ class Projects extends Component {
                                             <Col className="col-auto">                                                                              
                                                 <Project 
                                                     projectTitle="Portfolio"
-<<<<<<< Updated upstream
-                                                    projectDescription={["A ()webpage about the materials that showcase my skills, qualifications and education."]}
-=======
                                                     projectDescription={["A  webpage about the materials that showcase my skills, qualifications and education."]}
->>>>>>> Stashed changes
                                                     projectLink1="https://github.com/Jia-yung/portfolio"
                                                     projectPic={PortLogo}
                                                 /> 
