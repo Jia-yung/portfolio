@@ -27,19 +27,11 @@ class Projects extends Component {
                                             <Col className="col-auto">                                                                              
                                                 <Project 
                                                     projectTitle="Portfolio"
-                                                    projectDescription={["A  webpage about the materials that showcase my skills, qualifications and education."]}
+                                                    projectDescription={["A  xxxwebpage about the materials that showcase my skills, qualifications and education."]}
                                                     projectLink1="https://github.com/Jia-yung/portfolio"
                                                     projectPic={PortLogo}
                                                 /> 
-                                            </Col>  
-                                            <Col className="col-auto">                                                                              
-                                                <Project 
-                                                    projectTitle="Portfolio"
-                                                    projectDescription={["A webpage about the materials that showcase my skills, qualifications and education."]}
-                                                    projectLink1="https://github.com/Jia-yung/portfolio"
-                                                    projectPic={PortLogo}
-                                                /> 
-                                            </Col>                                                                                            
+                                            </Col>                                                                                             
                                         </Row> 
                                     </Container>                                                          
                                 </Tab>
