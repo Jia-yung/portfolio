@@ -27,6 +27,7 @@ class Projects extends Component {
                                             <Col className="col-auto">                                                                              
                                                 <Project 
                                                     projectTitle="Portfolio"
+<<<<<<< HEAD
                                                     projectDescription={["A webpage about the materials that showcase my skills, qualifications and education."]}
                                                     projectLink1="https://github.com/Jia-yung/portfolio"
                                                     projectPic={PortLogo}
@@ -40,6 +41,13 @@ class Projects extends Component {
                                                     projectPic={PortLogo}
                                                 /> 
                                             </Col>                                                                                            
+=======
+                                                    projectDescription={["Axxxxwebpage about the materials that showcase my skills, qualifications and education."]}
+                                                    projectLink1="https://github.com/Jia-yung/portfolio"
+                                                    projectPic={PortLogo}
+                                                /> 
+                                            </Col>                                                                                         
+>>>>>>> parent of bbf4655b... Delete src/components directory
                                         </Row> 
                                     </Container>                                                          
                                 </Tab>
