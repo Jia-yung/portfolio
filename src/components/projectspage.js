@@ -8,6 +8,7 @@ import CongkakLogo from '../images/congkak.png';
 import RobotLogo from '../images/linefollower.png';
 import DonationLogo from '../images/donationlogo.png';
 import EarthLogo from '../images/rsz_1earth.jpg';
+import CovidLogo from '../images/covidtracker.png';
 
 class Projects extends Component {
     constructor(props){
@@ -26,16 +27,17 @@ class Projects extends Component {
                                         <Row className="justify-content-center">  
                                             <Col className="col-auto">                                                                              
                                                 <Project 
-                                                    projectTitle="Portfolio"
-                                                    projectDescription={["A test webpage about the materials that showcase my skills, qualifications and education."]}
+                                                    projectTitle="Covid-19 Tracker"
+                                                    projectDescription={["A dashboard that allows users to visualise Covid-19 infection rate in different countries. ",<a href="https://covid19trackeronline.com/" rel="noopener noreferrer" target="_blank">Explore</a>]}
                                                     projectLink1="https://github.com/Jia-yung/portfolio"
-                                                    projectPic={PortLogo}
+                                                    projectLink2="https://covid19trackeronline.com/"
+                                                    projectPic={CovidLogo}
                                                 /> 
                                             </Col>
                                             <Col className="col-auto">                                                                              
                                                 <Project 
                                                     projectTitle="Portfolio"
-                                                    projectDescription={["A test webpage about the materials that showcase my skills, qualifications and education."]}
+                                                    projectDescription={["A webpage about the materials that showcase my skills, qualifications and education."]}
                                                     projectLink1="https://github.com/Jia-yung/portfolio"
                                                     projectPic={PortLogo}
                                                 /> 

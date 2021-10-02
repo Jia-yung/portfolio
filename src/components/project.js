@@ -13,7 +13,7 @@ class Project extends Component {
                 </div>          
                 <Card.Body >
                     <Card.Title className="project-title">{this.props.projectTitle}</Card.Title>
-                    <Card.Text className="text-justify">{listItem}</Card.Text>
+                    <Card.Text className="text-align:left">{listItem}</Card.Text>
                 </Card.Body>        
                 <ListGroup variant="flush">
                     <ListGroup.Item><Card.Link href={this.props.projectLink1} target="_blank">Github</Card.Link></ListGroup.Item>                

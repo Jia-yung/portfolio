@@ -15,7 +15,7 @@ class Resume extends Component {
                     <Row className="shadow resume-background">
                         <Col xs={12} md={12} lg={3} className="resume-left-column">
                             <section className="resume-left-section">
-                                <ScrollAnimation animateIn="fadeInUp">
+                                <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
                                     <div className="resume-name">
                                         <h3>Yap Jia Yung</h3>
                                     </div>                                                                        
@@ -52,7 +52,7 @@ class Resume extends Component {
                         </Col>                                                              
                         <Col className="resume-right-col" xs={12} md={12} lg={9}>
                             <section>
-                                <ScrollAnimation animateIn="fadeInUp">
+                                <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
                                     <div className="resume-right-label text-center">
                                         <i className="fa fa-graduation-cap fa-resume-header" aria-hidden="true"/>
                                         Education
@@ -62,11 +62,12 @@ class Resume extends Component {
                                         endYear={2019}
                                         program="BSc (Hons) in Computer Science"
                                         schoolName="Sunway University - Kuala Lumpur, Malaysia"
-                                        educationDescription={["CGPA: 3.9/4.0",
-                                                               "First Class Honours", 
-                                                               "Jeffrey Cheah Continuing Scholarship(75%) recipient",  
-                                                               "Final Year Project: Autonomous Driving based on Line Following and Obstacle Detection", 
-                                                               "Courses: Web Fundamentals, Software Architecture, Human Computer Interaction, Database Management System, Programming Principles, Data Structure and Algorithm, Computer Vision"]}                                      
+                                        educationDescription={["CGPA: 3.90/4.0",
+                                                               "Dual Award Program with Lancaster University, UK", 
+                                                               "Jeffrey Cheah Continuing Scholarship(75%) recipient", 
+                                                               "Jefferey Cheah Scholastic Award recipient for best student in Computer Science", 
+                                                               "Nominee for Valedictorian (2020)", 
+                                                               "Courses: Software Architecture, Database Management System, Data Structure and Algorithm, Computer Vision"]}                                      
                                         />   
                                     <hr/>
                                     <Education 
@@ -77,23 +78,35 @@ class Resume extends Component {
                                         educationDescription={["CGPA: 85.01%","Jeffrey Cheah Entrance Scholarship recipient"]}
                                         /> 
                                 </ScrollAnimation>
-                                <ScrollAnimation animateIn="fadeInUp">                           
+                                <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>                           
                                     <div className="resume-right-label text-center">
                                         <i className="fa fa-briefcase fa-resume-header" aria-hidden="true"/>
                                         Employment History
                                     </div>
                                     <Experience
-                                        startYear="2019"
-                                        endYear="2019"
+                                        startYear="2020 Sept"
+                                        endYear="Present"
+                                        jobName="OSS Delivery Engineer" 
+                                        companyName="Huawei Technologies - Kuala Lumpur, Malaysia"
+                                        jobDescription={["Actively engaged customer in SIT/UAT session to ensure delivery of fault management (FM) system within timeline.", 
+                                                         "Configured and wrote scripts to receive and populate incoming alarm from EMS; achieved 100% alarm integrity in comparison to user’s legacy system.", 
+                                                         "Configured and wrote scripts to collect alarm-related data from server and create trouble tickets for field maintenance engineers to resolve respective issues.", 
+                                                         "Comply with SLA to ensure 99.95% system service availability; resulted in users’ satisfaction with quality of system.",
+                                                         "Assisted in connectivity test between server and EMS for alarm reporting to FM system."
+                                                        ]}
+                                    />  
+                                    <Experience
+                                        startYear="2019 Jan"
+                                        endYear="2019 March"
                                         jobName="Intern Software Engineer" 
-                                        companyName="InfinitiLab - Kuala Lumpur, Malaysia"
-                                        jobDescription={["Developed and led front end development for SMRT’s training portal using ASP.net HTML.", 
-                                                         "Developed front end for the company website using WordPress.", 
-                                                         "Developed webpages for an insurance broker using ASP.net MVC.", 
-                                                         "Developed Excel sheets auto generator for an insurance's admin panel using .Net Framework"]}
+                                        companyName="InfinitiLab Sdn.Bhd. - Kuala Lumpur, Malaysia"
+                                        jobDescription={["Developed and implemented Excel sheets auto generator for an insurance admin panel using ASP.Net and EPPlus to reduce writing time on Excel; resulted in saving labor costs.", 
+                                                         "Worked closely with design lead to produce a complete conceptual design (UI/UX) for a bus training portal within one week using ASP.NET.", 
+                                                         "Worked closely with project lead to develop a responsive and user-friendly insurance broker website using ASP.NET.", 
+                                                         "Compiled and wrote easy to understand system documentation for clients."]}
                                     />  
                                 </ScrollAnimation>
-                                <ScrollAnimation animateIn="fadeInUp">
+                                <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
                                     <div className="resume-right-label text-center">
                                         <i className="fas fa-chalkboard-teacher fa-resume-header" aria-hidden="true"/>
                                         Teaching Experience
@@ -109,7 +122,7 @@ class Resume extends Component {
                                                          "Joined personal development and professional development training."]}
                                     />  
                                 </ScrollAnimation>
-                                <ScrollAnimation animateIn="fadeInUp"> 
+                                <ScrollAnimation animateIn="fadeInUp" animateOnce={true}> 
                                     <div className="resume-right-label text-center">
                                         <i className="fa fa-code fa-resume-header" aria-hidden="true"/>
                                         Projects
@@ -117,18 +130,18 @@ class Resume extends Component {
                                     <Row>
                                         <Col>
                                             <ResumeProjects 
-                                                projects = {["Rising sea water virtualisation tool using Javascript, HTML, CSS",
-                                                             "Donation Platform website using HTML, CSS, PHP", 
-                                                             "Sales Management using ASP.net C#", 
-                                                             "Movie Database Management using MongoDB", 
-                                                             "Congkak board game in command line interface using Java", 
-                                                             "Tic Tac Toe game with minimax and alpha-beta pruning algorithm using Python", 
+                                                projects = {["Covid-19 Visualisation Dashboard. ReactJS, JavaScript, Ajax, HTML, SCSS",
+                                                             "Rising sea water virtualisation tool. Javascript, HTML, CSS",
+                                                             "Donation Platform website. HTML, CSS, PHP", 
+                                                             "Sales Management System. ASP.net, C#", 
+                                                             "Congkak board game in command line interface. Java", 
+                                                             "Tic Tac Toe game with minimax and alpha-beta pruning algorithm. Python", 
                                                              "Face Detection and Recognition in Python using Haar Cascade and LBPH from OpenCV"]}
                                             />
                                         </Col>
                                     </Row>
                                 </ScrollAnimation>
-                                <ScrollAnimation animateIn="fadeInUp">                                                                                            
+                                <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>                                                                                            
                                     <div className="resume-right-label text-center">
                                         <i className="fas fa-trophy fa-resume-header" aria-hidden="true"/>
                                         Achievements
@@ -145,15 +158,16 @@ class Resume extends Component {
                                         </Col>
                                     </Row> 
                                 </ScrollAnimation>
-                                <ScrollAnimation animateIn="fadeInUp">                                                                                            
+                                <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>                                                                                            
                                     <div className="resume-right-label text-center">
                                         <i className="fa fa-desktop fa-resume-header" aria-hidden="true"/>
                                         Skills
                                     </div>
                                     <Row>
                                         <Col>
-                                            <Skills skills={["Programming Language: Java, C#, C, Python, HTML, CSS, JavaScript", 
-                                                             "Database: SQL, Oracle, MongoDB"]}
+                                            <Skills skills={["Programming Language: Java, JavaScript, C, C#, Python, HTML, CSS, SCSS, JSON", 
+                                                            "Frameworks: ReactJS",
+                                                            "Database: SQL"]}
                                             />
                                         </Col>
                                     </Row> 

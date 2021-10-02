@@ -20,7 +20,7 @@ class About extends Component {
                                     <hr/>                             
                                     <p className="text-justify">Hi, I am a software developer based in Kuala Lumpur, Malaysia. My objective is to apply IT-related knowledge and programming skills by developing cutting edge applications and enhancing user experiences. During my studies I have worked on several <Link to="/projectspage">projects</Link> which have prepared me with the relevant theory and practice to pursue a career in software development role.</p>
                                     <p className="text-justify">I have worked in <a href="https://www.infinitilab.com" rel="noopener noreferrer" target="_blank">Infinitilab</a> during my internship and my responsibilities include creating algorithm, developing user interface and contributing to development of a variety of software packages and web systems. </p>
-                                    <p className="text-justify">I am also looking forward to pursue my masters studies in the UK to further improve my computing knowledge. In the meantime, I am planning to work as a software developer to acquire some experience before continuing my studies.</p>
+                                    <p className="text-justify">I am currently working in Huawei as a OSS Delivery Engineer. Nevertheless, I'm aspired to accept more challenges and seek for different career opportunities to expand my career growth.</p>
                                     <p className="text-justify">If you have any questions about my competence, do not hesitate to drop me an email !</p>
                                     <div className="fa-pull-right">                                   
                                         <a href="mailto:yapjiayung@gmail.com" target="_blank" rel="noopener noreferrer" className="btn btn-outline-secondary email-btn" ><span className="fa fa-envelope email-btn" aria-hidden="true" style={{marginRight: '10px'}}/>Email</a>
@@ -32,7 +32,7 @@ class About extends Component {
                     </Container>              
                 </section>              
                 <section className="achievement-section"> 
-                    <ScrollAnimation animateIn="fadeIn">                   
+                    <ScrollAnimation animateIn="fadeIn" animateOnce={true}>                   
                         <Container>
                             <Row>                           
                                 <Col xs={12}>
